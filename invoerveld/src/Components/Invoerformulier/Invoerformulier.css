@@ -1,0 +1,67 @@
+.InvoerFormulier {
+    background-color: #f6f6f6;
+    min-height: 30rem;
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Invoerformulier__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.InvoerFormulier__formulier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.InvoerFormulier__formulier__input {
+    padding: 1rem 10rem;
+    text-align: left;
+    background-color: #eeeeee;
+    border-radius: 0.5rem;
+    border: none;
+    caret-color: #5DFF0F;
+}
+
+.InvoerFormulier__formulier__input:focus {
+    border: none;
+    background-color: #cdcdcd;
+}
+
+.InvoerFormulier__formulier__button{
+    padding:0.8rem 3rem;
+    font-size:100%;
+    background-color:#5DFF0F;
+    border: none;
+    border-radius: 0.25rem;
+}
+.InvoerFormulier__formulier__button:hover{
+   transform:scale(1.1);
+   cursor:pointer;
+
+}
+
+.todo__item{
+    list-style: none;
+    padding: 2rem;
+    transition: 0.5ms;
+    border-bottom:0.2rem rgb(0, 0, 0,0.4) solid;
+}
+.todo__item:hover{
+    background-color:hsl(33, 89%, 83%);
+    cursor: pointer;
+}
+.todo__item--done{
+    text-decoration: line-through;
+}

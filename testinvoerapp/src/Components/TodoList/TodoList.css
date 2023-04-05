@@ -1,0 +1,11 @@
+.InvoerFormulier {
+    background-color: #f6f6f6;
+    min-height: 30rem;
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
